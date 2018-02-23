@@ -1,0 +1,26 @@
+{
+  "name": "fetch-emails",
+  "version": "1.0.0",
+  "description": "Extract Email and VPA Id's from given text",
+  "author": "Rajeev Desai",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rajeevdesai/fetch-emails.git"
+  },
+  "keywords": [
+    "email",
+    "emails",
+    "vpa",
+    "upi",
+    "email-regex"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rajeevdesai/fetch-emails/issues"
+  },
+  "homepage": "https://github.com/rajeevdesai/fetch-emails#readme"
+}
