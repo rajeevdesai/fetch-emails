@@ -2,8 +2,8 @@
 const emailRegex = require('emails-regex');
 const vpaRegex = require('vpa-regex');
 
-module.exports = (text, options) => {
-  const options = options || {};
+module.exports = (text, opts) => {
+  const options = opts || {};
   const emails = text.match(emailRegex());
   const vpas = text.match(vpaRegex());
 
